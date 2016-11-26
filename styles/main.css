@@ -29,11 +29,22 @@ a:hover {
 
 .headbar {
     width: 30%;
-    background: url(../images/bg.jpg);
+    background: #678192;
     padding: 5em 3em;
     height: 100%;
     position: fixed;
     text-align: right;
+    box-shadow: 10px 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.headbar a {
+    color: #333;
+    margin: 0.3em;
+    transition-duration: 0.5s;
+}
+
+.headbar a:hover {
+    color: #fff;
 }
 
 .headbar header {
@@ -42,6 +53,7 @@ a:hover {
 }
 
 .headbar header img {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     width: 12em;
     border-radius: 50%;
 }
@@ -55,59 +67,47 @@ a:hover {
     font-size: 1.2em;
 }
 
-.headbar footer a {
-    color: #333;
+.headbar .social-links {
+    margin: 1em 0 0 0;
 }
 
-.headbar footer a:hover {
-    color: rgba(51, 51, 51, 0.65);
-}
 
+}
 .headbar footer span a {
     vertical-align: sub;
     padding: 0.5em;
 }
-
 .mainbar {
     width: 70%;
     float: right;
 }
-
 .mainbar section:first-child {
     margin: 5em 0 0 0;
 }
-
 .mainbar section:last-child {
     margin: 0 0 2em 0;
 }
-
 .mainbar section {
     margin: 2em 0 0 0;
 }
-
 .mainbar section h2 {
     margin: 0 0 1em 0;
 }
-
 .mainbar section p {
     margin: 1em 0;
 }
-
 .mainbar section ul {
     padding: 0;
     list-style-position: inside;
 }
-
 .progress {
     display: inline-block;
     width: 40%;
     margin: 0 4em 2em 0;
 }
-
 .progress h3 {
     margin: 0 0 0.5em 0;
 }
-
 .progress-bar {
     overflow: hidden;
     height: 100%;
@@ -115,38 +115,26 @@ a:hover {
     top: 0;
     left: 0;
     border-radius: 5px;
+    background: #ff5b36;
 }
-
 .progress-html .progress-bar {
     width: 85%;
-    background: #ff5e00;
 }
-
 .progress-css .progress-bar {
     width: 75%;
-    background: #002bff;
 }
-
 .progress-js .progress-bar {
     width: 50%;
-    background: #ffd400;
 }
-
 .progress-node .progress-bar {
     width: 30%;
-    background: #009212;
 }
-
 .progress-git .progress-bar {
     width: 55%;
-    background: #4a1f00;
 }
-
 .progress-sql .progress-bar {
     width: 60%;
-    background: #00b8ff;
 }
-
 .progress-bg {
     background: #ddd;
     position: relative;
@@ -154,12 +142,10 @@ a:hover {
     border-radius: 5px;
     overflow: hidden;
 }
-
 .feedback .feedback-item {
     display: inline-block;
     width: 33%;
 }
-
 .feedback i {
     margin-right: 0.75em;
     vertical-align: sub;
