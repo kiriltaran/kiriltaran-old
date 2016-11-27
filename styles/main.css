@@ -18,7 +18,23 @@ a {
 }
 
 a:hover {
-    color: rgba(35, 82, 124, 0.65);
+    color: #ff5b36;
+    cursor: pointer;
+}
+
+.hide {
+    position: fixed;
+    top: 1em;
+    left: 1em;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.hide {
+    position: fixed;
+    top: 1em;
+    left: 1em;
+    z-index: 1;
     cursor: pointer;
 }
 
@@ -40,11 +56,12 @@ a:hover {
 .headbar a {
     color: #333;
     margin: 0.3em;
+    -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
 }
 
 .headbar a:hover {
-    color: #fff;
+    color: #ff5b36;
 }
 
 .headbar header {
@@ -116,6 +133,8 @@ a:hover {
     left: 0;
     border-radius: 5px;
     background: #ff5b36;
+    -webkit-transition-duration: 10s;
+    transition-duration: 10s;
 }
 .progress-html .progress-bar {
     width: 85%;
@@ -144,7 +163,7 @@ a:hover {
 }
 .feedback .feedback-item {
     display: inline-block;
-    width: 33%;
+    width: 49%;
 }
 .feedback i {
     margin-right: 0.75em;

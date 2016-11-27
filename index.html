@@ -11,17 +11,22 @@
 
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
     <link rel="stylesheet" href="styles/libs/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/libs/animate.css">
     <link rel="stylesheet" href="styles/main.css ">
     <link rel="stylesheet" href="styles/media.css">
     <!--[if lt IE 9]>
     <script src="styles/libs/html5shiv.min.js"></script>
     <![endif]-->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/jQuery-viewport-checker/dist/jquery.viewportchecker.min.js"></script>
+
+    <script src="js/main.js"></script>
 </head>
 
 <body>
+    <div class="hide animated fadeInLeft"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></div>
     <!--    header + footer-->
-
-    <div class="headbar">
+    <div class="headbar animated fadeInLeft">
         <header>
             <img src="images/avatar.jpg " alt="avatar ">
             <h1>Кирилл Таран</h1>
@@ -39,7 +44,7 @@
 
     <!--    content-->
 
-    <main class="mainbar">
+    <main class="mainbar animated fadeInRight">
         <div class="container">
             <section class="about ">
                 <h2>Обо мне</h2>
@@ -48,8 +53,8 @@
                 </p>
                 <ul>
                     <li><strong>HTML</strong></li>
-                    <li><strong>CSS(Bootstrap, Skeleton) </strong></li>
-                    <li><strong>JS</strong></li>
+                    <li><strong>CSS(Bootstrap, Foundation, Skeleton) </strong></li>
+                    <li><strong>JS(jQuery)</strong></li>
                     <li><strong>Git</strong></li>
                 </ul>
                 <p>
