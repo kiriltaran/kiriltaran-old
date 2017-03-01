@@ -5,7 +5,7 @@ $(document)
         });
     })
     .ready(function () {
-        $('.hide').click(function () {
+        $('.btn-hide').click(function () {
             if (!$('.headbar').hasClass('fadeOutLeft')) {
                 $('.headbar').addClass('animated fadeOutLeft');
                 $('.mainbar ').animate({
