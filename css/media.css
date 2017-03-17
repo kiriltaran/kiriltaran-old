@@ -1,0 +1,53 @@
+@media (max-width: 1110px) {
+	.btn-hide {
+		display: none;
+	}
+	.headbar {
+		padding-bottom: 2em;
+		padding-top: 2em;
+		position: relative;
+		text-align: center;
+		width: 100% !important;
+	}
+	.headbar header {
+		margin-bottom: 4em;
+	}
+	.mainbar {
+		width: 100%;
+	}
+	.mainbar section:first-child {
+		margin: 2em 0 0 0;
+	}
+	.mainbar h2 {
+		text-align: center;
+	}
+	.mainbar .skills .skill {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+	}
+	.og-expander {
+		left: 0;
+		width: 100%;
+	}
+	.feedback-item {
+		text-align: center;
+	}
+}
+
+@media (max-width: 424px) {
+	.og-grid li>a,
+	.og-grid li>a img {
+		width: 100%;
+	}
+	.feedback-item {
+		display: block !important;
+		line-height: 2.5em;
+		text-align: left;
+		width: 100% !important;
+	}
+	.feedback-item span {
+		margin-left: 0.2em;
+	}
+}
