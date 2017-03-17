@@ -4,7 +4,6 @@
 	"description": "",
 	"main": "index.js",
 	"dependencies": {
-		"jquery": "^2.2.4",
 		"jquery-plugin-viewport-checker": "^1.8.3"
 	},
 	"devDependencies": {},
